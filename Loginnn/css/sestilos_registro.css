@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 705px;
+    background-image: url(../img/ilustraciones/price-bg.png);
+    background-position: center center; /*centrado horizontal y vertical*/
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}

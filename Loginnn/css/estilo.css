@@ -1,0 +1,204 @@
+/* ESTILOS GENERALES */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --sidebar-width: 280px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.d-flex{
+    display: flex;
+}
+
+/* SECCION / OPCIONES DEL ADMINISTRADOR */
+    .section-uno {
+        width: 100%;
+        height: 530px;
+        position: relative;
+    }
+    #sidebar{
+        width: var(--sidebar-width);
+        height: 100vh;
+        position: fixed;  
+        overflow: auto; 
+    }
+    .menu{
+        height: 750px;
+        background-color: white;
+        border: 2px solid white;
+        border-right: 1px solid rgb(219, 219, 219);
+    }
+    .botones {
+        margin: 30px 10px;
+    }
+    img{
+        width: 90%;
+        height: 210px;
+    }
+    span{
+        color: rgb(211, 211, 211);
+    }
+    button{
+        width: 190px;
+        height: 38px;
+        border-radius: 5px;
+        border: none;
+        background-color: white;
+        color: black;
+    }
+    button:hover{
+        border: 1px solid lightgrey;
+        background-color: lightgray;
+    }
+    h1{
+        font-family: 'Dancing Script', cursive;
+        font-size: 60px;
+        color: black;
+    }
+    h4{
+        font-size: 15px;
+        color: rgb(87, 87, 87);
+    }
+
+/* SECCION / CONTENIDO  */
+    .contenido{
+        /* background: url(../img/ilustraciones/price-bg.png); */
+        background-position: center center;
+        margin-left: var(--sidebar-width);
+        top: var(--nav-height);
+        position: relative;
+    }
+    .conten-tablas{
+        width: 100%;
+        height: 705px;
+    }
+
+    /* SECCION / INPUTS DE LAS TABLAS */
+        .contenedor{
+            width: 80%;
+            margin-left: 50px;
+            max-width: 1000px;
+            overflow: hidden;
+        }
+        h2{
+            margin-top: 20px;
+            font-size: 50px;
+            color: black;
+            font-family: 'Dancing Script', cursive;
+        }
+        a{
+            text-decoration: none;
+        }
+        .barra__buscador{
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+        .formulario{
+            display: flex;
+            width: 100%;
+            overflow: hidden;
+        }
+        form .input__text{
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+            color: #848688;
+            display: block;
+            font-size: 14px;
+            margin-bottom: 15px;
+            padding: 10px 15px;
+            max-width: 30%;
+            margin-right: 10px;
+            outline: medium none;
+        }
+        form .input__text:focus{
+            border: 1px solid gray;
+        }
+        form .form-group{
+            display: flex;
+            width: 100%;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+        form .form-group .input__text{
+            max-width: 45% !important;
+        }
+        form .btn{
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+            color: #fff;
+            display: block;
+            font-size: 14px;
+            background: rgb(0, 107, 214);
+            margin-bottom: 15px;
+            padding: 10px 20px;
+            margin-right: 10px;
+            outline: medium none;
+            cursor: pointer;
+        }
+        .btn__nuevo{
+            float: right;
+            background: #2ee700!important;
+        }
+        .btn__group{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        .btn__primary{
+            background: white;
+        }
+        .btn__danger{
+            background: #d30700 !important;
+        }
+
+    /* SECCION / TABLA */
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table .head{
+            background: rgb(0, 0, 0);
+        }
+        table .head td{
+            color: #fff;
+            font-family: 'Arial',sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            text-align: center;
+        }
+        table tr td{
+            border:1px solid rgb(165, 165, 165);
+            padding: 7px;
+            font-size: 14px;
+            color: rgb(65, 65, 65);
+        }
+        .btn__update{
+            display: inline-block;
+            font-size: 16px;
+            background: #2ee700;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+        .btn__delete{
+            display: inline-block;
+            font-size: 16px;
+            background: #d30700;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+

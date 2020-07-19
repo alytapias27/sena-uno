@@ -1,0 +1,827 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+    main {
+        position: relative;
+        top: 60px;
+    }
+    .relative{
+        position: relative;
+    }
+    .absolute{
+        position: absolute;
+    }
+    .d-flex{
+        display: flex;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .justify-content{
+        justify-content: center;
+    }
+    @media screean and(max-width:1500px){
+        .conten-portada {
+            background-size: 2000px;
+        }
+    }
+    
+    /* SECCION / INTRO */
+        header {
+            width: 100%;
+            width: 100%;
+            height: 759px;
+            background-image: url(../img/fotos/pic-83-compressor.jpg);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-size: 100%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .conten-portada {
+            width: 100%;
+            height: 759px;
+            background-color: rgba(126, 252, 0, 0.137);
+        }
+        .conten-uno {
+            width: 85%;
+            height: 600px;
+            margin-left: 120px;
+            text-align: center;
+        }   
+        .menu{
+            width: 100%;
+            height: 60px;
+        }
+        .items{
+            width: 40%;
+            height: 60px;
+            margin-left: 750px;
+            text-align: right;
+            padding: 1%;
+        }
+        .items a{
+            font-family: 'Dancing Script', cursive;
+            font-size: 40px;
+            font-weight: 500;
+            margin-right: 120px;
+            text-decoration: none;
+            color:  rgb(29, 29, 146);
+        }
+        .items a:hover{
+            color: rgb(45, 45, 238);
+        }
+        .conten-dos{
+            width: 28%;
+            height: 300px;
+            margin-left: 390px;
+            /* background-color: rgb(0, 185, 0); */
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+        }
+        .title-uno{
+            font-size: 140px;
+            margin-top: 20px;
+            color: rgb(29, 29, 146);
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+        }
+        .conten-dos img{
+            width: 90%;
+            height: 280px;
+            text-align: center;
+        }
+
+    /* SECCION / CARDS INTRO*/
+        #cards {
+            margin-top: 200px;
+        }
+        .space-top {
+            margin-top: 30px;
+            position: absolute;
+            top: 420px;
+        }
+        .container-cards {
+            width: 80%;
+            margin: 0 10%;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        .col-3 {
+            padding: 10px;
+            width: 25%;
+        }
+        .card {
+            box-shadow: 0px 40px 40px 0px rgba(27, 24, 25, 0.04);
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 3%;
+            padding-right: 3%;
+            background-color: white;
+            color: rgb(29, 29, 146);
+            box-sizing: border-box;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .card:hover{
+            color: white; /*para cambiar el color cuando se posiciona un enlace*/
+            background-color: rgba(29, 29, 163, 0.883);
+        } 
+        .card h4{
+            font-weight: 800;
+            font-size: 18px;
+        }
+        .card p{
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+    /* SECCION UNO / DESCRIPCION Y DESCARGA TOURISTAR APP*/
+        .conten-1 {
+            width: 100%;
+            height: 700px;
+            padding-top: 150px;
+        }
+        .conten-descrip{
+            width: 90%;
+            height: 500px;
+            margin-left: 75px;
+            padding-top: 80px;
+            padding-left: 6%;
+            padding-right: 6%;
+        }
+        .title{
+            font-weight: 900;
+            font-size: 100px;
+            color: lawngreen;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+        }
+        .conten-descrip p{
+            font-size: 19px;
+            font-weight: 500;
+            color: black;
+            text-indent: 2%;
+            text-align: justify; /*texto justificado y con sangria*/
+        }
+        .btn-descarga{
+            width: 350px;
+            height: 60px;
+            background-color: white;
+            border: 2px solid rgb(0, 200, 0);
+            border-radius: 5px;
+            color: rgb(0, 200, 0);
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .btn-descarga:hover{
+            color: white;
+            background-color: rgba(29, 29, 163, 0.883);
+            border: none;
+        }
+        span{
+            color: gray;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+    /* SECCION DOS / IMAGEN INFORMATIVA CARDS */
+        .conten-2{
+            width: 100%;
+            height: 700px;
+            background-color: rgb(34, 0, 187);
+        }
+        .conten-imagen{
+            width: 100%;
+            height: 700px;
+            background: url(../img/ilustraciones/price-bg.png);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .imagen-info{
+            width: 70%;
+            height: 170px;
+            margin-top: 3%;
+            margin-left: 16%;
+        }
+        .imagen-info h4{
+            color: white;
+            font-size: 38px;
+        }
+        .imagen-info p{
+            padding: 4%;
+            color: white;
+            font-size: 19px;
+        }
+        .cards-imagenes{
+            width: 100%;
+            height: 300px;
+            margin-top: 30px;
+            position: absolute;
+        }
+        .conten-cards-imag{
+            width: 80%;
+            margin: 0 10%;
+        }
+        .rows{
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        .col-4{
+            padding: 10px;
+            width: 25%;
+        }
+        .card-img{
+            box-shadow: 0px 40px 40px 0px rgba(27, 24, 25, 0.04);
+            padding-top: 70px;
+            padding-bottom: 60px;
+            box-sizing: border-box;
+            height: 130%;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .card-img span{
+            color: white;
+            font-size: 32px;
+            font-weight: 800;
+            position: relative;
+            top: 120px;
+            font-family: 'Dancing Script', cursive;
+        }
+        .imag-uno{
+            background: url(../img/fotos/silletera.jpg);
+            background-color: rgba(255, 255, 255, 0.733);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-size: 130%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .imag-uno:hover{
+            background: url(../img/fotos/silletera.jpg);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-size: 160%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .imag-dos{
+            background: url(../img/fotos/plato\ de\ comida.jpg);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-size: 170%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .imag-dos:hover{
+            background: url(../img/fotos/plato\ de\ comida.jpg);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-size: 200%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .imag-tres{
+            background: url(../img/fotos/Pueblito1.jpg);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-size: 130%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .imag-tres:hover{
+            background: url(../img/fotos/Pueblito1.jpg);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-size: 160%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .imag-cuatro{
+            background: url(../img/fotos/Medellín-1-compressor.jpg);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-size: 190%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .imag-cuatro:hover{
+            background: url(../img/fotos/Medellín-1-compressor.jpg);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-size: 220%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .boton-vermas{
+            width: 100%;
+            height: 80px;
+        }
+        .btn-vermas{
+            width: 12%;
+            height: 45px;
+            background-color: rgb(1, 6, 80);
+            border: none;
+            border-radius: 8px;
+            margin: 75px 600px;
+            color: white;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .btn-vermas:hover{
+            color: lawngreen;
+            border: none;
+        }
+
+    /* SECCION TRES / DESTINOS CON RA */
+        .espacio{
+            width: 100%;
+            height: 200px;
+        }
+        .info-uno-uno{
+            width: 80%;
+            height: 60px;
+            margin-top: 6%;
+            margin-left: 13%;
+            text-align: center;
+        }
+        .info-uno-uno h2{
+            font-weight: 800;
+            font-size: 32px;
+            color: lawngreen;
+        }
+        .green{
+            background-color: rgb(179, 255, 103);
+        }
+        .white{
+            background-color: white;
+        }
+        .conten-multimedia {
+            width: 100%;
+            height: 1600px;
+        }
+        .col-1{
+            width: 100%;
+            height: 400px;
+        }
+        .height{
+            height: 480px;
+        }
+        .imagen-uno{
+            width: 40%;
+            height: 350px;
+            margin-left: 20px;
+            display:inline-block;
+        }
+        .img-multimedia-uno{
+            width: 100%;
+            height: 350px;
+            margin-left: 30px;
+            position: relative;
+            top: 25px;
+            border-radius: 3px;
+        }
+        .info-uno{
+            width: 50%;
+            height: 350px;
+            margin-left: 50px;
+            display:inline-block;
+        }
+        .info-uno h2{
+            font-weight: 800;
+            font-size: 30px;
+        }
+        .info-uno h3{
+            font-weight: 300;
+            font-size: 25px;
+        }
+        .info-uno p{
+            text-align: justify;
+        }
+        .info-dos{
+            width: 50%;
+            height: 350px;
+            margin-left: 50px;
+            display:inline-block;
+        }
+        .info-dos h2{
+            font-weight: 800;
+            font-size: 30px;
+        }
+        .info-dos p{
+            text-align: justify;
+        }
+        .imagen-dos{
+            width: 40%;
+            height: 350px;
+            margin-left: 20px;
+            display:inline-block;
+        }
+        .img-multimedia-dos{
+            width: 100%;
+            height: 350px;
+            margin-left: 30px;
+            position: relative;
+            top: 25px;
+            border-radius: 3px;
+        }
+        .esp{
+            width: 100%;
+            height: 60px;
+        }
+
+    /* SECCION CUANTRO / IMAGEN INFORMATIVA Y SLIDER */
+        .conten-4{
+            width: 100%;
+            height: 700px;
+            background-color: rgb(34, 0, 187);
+        }
+        .conten-imagen-dos{
+            width: 100%;
+            height: 700px;
+            background: url(../img/ilustraciones/price-bg.png);
+            background-position: center center; /*centrado horizontal y vertical*/
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+        }
+        .imagen-info-dos{
+            width: 70%;
+            height: 100px;
+            margin-top: 3%;
+            margin-left: 15%;
+        }
+        .imagen-info-dos h4{
+            color: white;
+            font-size: 37px;
+            font-weight: 800;
+        }
+
+        /* SECCION / SLIDER */
+            .conten-slider{
+                width: 90%;
+                height: 460px;
+                /* background-color: blueviolet; */
+                margin: auto;
+            }
+            .slider-wrap{
+                width: 100%;
+            }
+            .slider-wrap ul{
+                padding: 0;
+            } 
+            .slider-wrap li{
+                list-style: none;
+            }
+            .slider-wrap img{
+                width: 100%;
+                height: 400px;
+            }
+
+    /* SECCION CINCO / NOSOTROS  */
+        .nosotros{
+            width: 100%;
+            height: 130px;
+        }
+        .nosotros-info{
+            width: 80%;
+            height: 130px;
+            margin-left: 170px;
+            padding: 35px;
+            text-align: center;
+        }
+        .nosotros-info h2{
+            font-size: 32px;
+            font-weight: 900;
+            color:  lawngreen;
+        }
+        .conten-nosotros{
+            width: 100%;
+            height: 400px;
+        }
+        .col-5{
+            width: 100%;
+            height: 400px;
+        }
+        .imagen-nosotros{
+            width: 30%;
+            background: url(../img/fotos/fondo-empresarial.jpg);
+            background-position: center center;   /* centrado horizontal y vertical */
+            background-size: 200%;
+            background-repeat: no-repeat; /*para que la imagensea una y centrada*/
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            height: 400px;
+            margin-left: 20px;
+            transition: all 1s;
+            display:inline-block;
+        }
+        .imagen-nosotros:hover{
+            border-radius: 44% 56% 87% 13% / 68% 86% 14% 32% ;
+        }
+        .info-nosotros{
+            width: 60%;
+            height: 350px;
+            margin-left: 50px;
+            display:inline-block;
+        }
+        .info-nosotros p{
+            font-size: 18px;
+            text-align: justify;
+            color: black;
+        }
+
+    /* SECCION SEIS / FORTALEZAS */
+        #fort-title{
+            color: lawngreen;
+            font-weight: 800;
+        }
+        .contem-fortalezas{
+            width: 100%;
+            height: 500px;
+        }
+        .conte-info{
+            width: 100%;
+            height: 500px;
+        }
+        .card-two{
+            width: 30%;
+            height: 400px;
+            margin-left: 30px;
+            margin-top: 45px;
+            background-color: white;
+            display: inline-block;
+        }
+        .icons-wrap{
+            margin: 0 auto;
+            width: 210px;
+            height: 200px;
+            background-color: rgb(166, 2, 172);;
+            border-radius: 50%;
+            text-align: center;
+            margin-top: 3%;
+        }
+        .icons-wrap i{
+            color: white;
+            font-size: 800%;
+            padding-top: 12%;
+        }
+        .card-info h3{
+            text-align: center;
+            font-size: 27px;
+            font-family: 'Montserrat', sans-serif;
+            color: gray;
+        }
+
+    /* SECCION SIETE/ MAPA */
+        .container-maps{
+            width: 100%;
+            height: 400px;
+        }
+        .conte-maps-hijo{
+            width: 100%;
+        }
+        #info {
+            color:  lawngreen;
+            font-size: 35px;
+            font-weight: 800;
+            text-align: center;
+        }
+        .contentenedor-mapa{
+            width: 100%;
+            height: 700px;
+            /* padding: 20px 50px; */
+            text-align: center;
+        }
+
+    /* SECCION OCHO / DATOS OFC */
+        .container-info {
+            width: 100%;
+            height: 460px;
+        }
+        .informacion {
+            width: 90%;
+            height: 430px;
+            margin-left: 60px; 
+            margin-top: 30px;  
+        }
+        #info-ubic {
+            color:  lawngreen;
+            font-size: 32px;
+            font-weight: 800;
+            margin-left: 50px;
+        }
+        .informacion p{
+            color: black;
+            font-size: 18px;
+            line-height: 155%; 
+            padding: 1%;
+            text-indent: 2%; /*Texto identado*/
+            text-align: justify; /*texto justificado y con sangria*/
+        }
+        .informacion h4{
+            font-size: 20px;
+        }
+
+    /* SECCION NUEVE / COLABORADORES */
+        .colaboradores{
+            width: 100%;
+            height: 300px;
+        }
+        .conten-colabor{
+            width: 100%;
+            height: 300px;
+        }
+        #info-colab{
+            color:  lawngreen;
+            font-size: 32px;
+            font-weight: 800;
+            margin-left: 110px;
+        }
+        .logos-colab{
+            width: 100%;
+            height: 120px;
+            display: inline-block;
+        }
+        .logo-sena{
+            width: 15%;
+            height: 120px;
+            margin-left: 180px;
+            display: inline-block;
+        }
+        .logo-uno{
+            background: url(../img/logos/sena.png);
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            background-size: 50%;
+        }
+        .logo-dos{
+            background: url(../img/logos/Sennova.jpg);
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            background-size: 90%;
+        }
+        .logo-tres{
+            background: url(../img/logos/Biomatic.jpg);
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            background-size: 50%;
+        } 
+
+
+    /* SECCION DIEZ / MENSAJES Y REDES SOCIALES */
+        .contem-redes{
+            width: 85%;
+            height: 460px;
+            background-color: rgb(63, 0, 92);
+            margin-left: 100px;
+        }
+        .contem-redes-sociales{
+            width: 100%;
+            background: url(../img/ilustraciones/price-bg.png);
+            background-size: contain;
+            background-attachment: fixed; 
+            display: inline-block;
+        }
+        .col-8{
+            width: 48%;
+            height: 420px;
+            display: inline-block;  
+            margin-left: 16px;
+            text-align: center;
+        }
+        #title-fooder{
+            font-size: 150px;
+            color: white;
+        }
+        .col-8 span{
+            font-size: 23px;
+            color: white;
+            font-weight: 600;
+        }
+        .icons-rs{
+            display: inline-block;
+            font-size: 40px;
+            padding: 1%;
+            color: white;
+        }
+        .icons-rs:hover{
+            color: lawngreen;
+        }
+        .info-desarrollo{
+            width: 80%;
+            height: 200px;
+            margin-left: 150px;
+            padding: 50px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+        .mns-conten{
+            width: 100%;
+            height: 500px;
+            text-align: center;
+            padding: 5px;
+        }
+        .mns-conten h3{
+            color: rgb(195, 255, 0);
+            font-family: 'Dancing Script', cursive;
+            font-size: 45px;
+        }
+        .caja-mns input{
+            width: 400px;
+            height: 45px;
+            font-family: 'Montserrat', sans-serif;
+            background-color: white;
+            border: none;
+            font-size: 21px;
+            padding: 2%;
+        }
+        .caja-mns textarea{
+            width: 400px;
+            height: 120px;
+            font-family: 'Montserrat', sans-serif;
+            background-color: white;
+            border: none;
+            font-size: 21px;
+            padding: 2%;
+        } 
+        .caja-mns button{
+            width: 400px;
+            height: 55px;
+            background-color: rgb(153, 0, 158);
+            border: 1px solid rgb(136, 1, 141);
+            font-family: 'Dancing Script', cursive;
+            border-radius: 5px;
+            color: white;
+            font-weight: 600;
+            font-size: 28px;
+        }
+        .caja-mns button:hover{
+            color: lawngreen;
+            border: none;
+            border-radius: 5px;
+        }
+
+    /* SECCION / FOOTER  */
+        footer{
+            width: 100%;
+            height: 360px;
+            background-color: black;
+            position: absolute;
+        }
+        .footer{
+            width: 90%;
+            height: 350px;
+            position: absolute;
+            margin-left: 65px;
+            justify-content: center;
+            display: inline-block;
+        }
+        .info-footer{
+            width: 28%;
+            height: 300px;
+            margin-top: 30px;
+            margin-left: 30px;
+            display: inline-block;
+            justify-content: center;
+        }
+        .info-uno h1{
+            font-size: 65px;
+            font-family: 'Dancing Script', cursive;
+            color: #c8114e;
+            margin-left: 20px;
+        }
+        .logo-footer{
+            width: 50%;
+            height: 170px;
+            background-color: #c8114e;
+            border-radius: 50%;
+            text-align: center;
+            margin-left: 50px;
+        }
+        .logo-footer img{
+            width: 98%;
+            height: 160px;
+        }
+        .info-dos h1{
+            font-size: 28px;
+            color: rgb(144, 144, 144);
+            margin-top: 70px;
+        }
+        footer i{
+            color: lightgray;
+            font-size: 19px;
+        }
+        .info-dos span{
+            color: white;
+            font-size: 18px;
+            margin-left: 25px;
+        }
+        .info-tres{
+            text-align: center;
+        }
+        .logo-android img{
+            width: 35%;
+            height: 100px;
+            margin-top: 0px;
+        }
+        .info-tres a{
+            font-size: 20px;
+            text-decoration: none;
+            color: lawngreen;
+        }
+        .info-tres a:hover{
+            color: rgba(173, 251, 95, 0.904);
+        }
+        .info-tres p{
+            color: gray;
+            text-align: center;
+            font-size: 16px;
+        }
